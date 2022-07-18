@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul.nav-wrap{
+    border:1px solid #e1e1e1;
+    display: flex;
+    background: gainsboro;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+li.item{
+text-decoration: none;
+color: black;
+width: 150px;
+border: 1px solid black;
+}
+@media only screen and (min-width: 768px){
+ul.nav-wrap{
+flex-direction: column;
+
+}
+li.item{
+    font-size: 0.8rem;
+}
+}

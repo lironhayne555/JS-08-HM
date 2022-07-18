@@ -1,0 +1,9 @@
+$spec-text : 'Macondo', cursive;
+$reg-text : 'Roboto', sans-serif;
+
+@mixin titleText {
+    text-align: center;
+    color: $bg-light ;
+    font-family: $spec-text;
+    
+}

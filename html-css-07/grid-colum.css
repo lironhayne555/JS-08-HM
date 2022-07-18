@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrap{
+    background-color: greenyellow;
+    /* border: 5px red dotted; */
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    /* The number of values will determin how many columin will be opened. */
+    grid-template-columns: 200px 200px 150px 200px 100px;
+    /* the number of values will detering the higet of the number of rows */
+    /* grid-template-rows: 80px 80px;     */
+    grid-template-columns: auto 400px auto 100px auto;
+    grid-template-columns:  200px 200px auto 100px ;
+    /* fr is a fraction, it is a fraction of the parent elemnet (which is this specific elment) */
+    /* the number of frs that each colun will get is the number stated */
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: repeat(3, 2fr);
+    /* space beetween colems */
+    /* column-gap: 2rem ; */
+    /* space beetween rows */    
+    /* row-gap: 3rem; */
+}
+
+
+
+div.inner{
+    background-color: gainsboro;
+    border: 0.33px greenyellow solid ;
+}
+div.inner:nth-child(4){
+    background-color: darkmagenta;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+}
+div.inner:nth-child(5){
+    background-color: goldenrod;
+    grid-template-columns: 3;
+    grid-template-columns: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+}

@@ -1,0 +1,91 @@
+div.title-wrap {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 90, 100, 0.3))), url("../img/mainPics/coffee-beans-1291656_1280.jpg");
+  background-image: linear-gradient(to top rgba(0, 220, 0, 0.3), rgba(0, 90, 100, 0.3)), url("../img/mainPics/coffee-beans-1291656_1280.jpg");
+  height: 75vh;
+}
+
+div.title-wrap h1 {
+  text-align: center;
+  color: #ffdbac;
+  font-family: "Macondo", cursive;
+}
+
+div.box-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 75vw;
+  margin: auto;
+}
+
+div.box-wrap div.box {
+  -webkit-box-shadow: 5px 5px #a7adba;
+          box-shadow: 5px 5px #a7adba;
+  position: relative;
+  bottom: 50px;
+  background-color: #f4b6c2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  -webkit-transition: border-radius 3s ease-in, -webkit-transform 3s ease-in-out;
+  transition: border-radius 3s ease-in, -webkit-transform 3s ease-in-out;
+  transition: border-radius 3s ease-in, transform 3s ease-in-out;
+  transition: border-radius 3s ease-in, transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
+}
+
+div.box-wrap div.box h3 {
+  text-align: center;
+  color: #ffdbac;
+  font-family: "Macondo", cursive;
+}
+
+div.box-wrap div.box img.box-img {
+  width: 100%;
+  height: 25%;
+}
+
+div.box-wrap div.box:hover {
+  border-radius: 25%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #eec9d2;
+}
+
+nav ul.li-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30vw;
+}
+
+nav ul.li-wrap li.a-wrap {
+  list-style: none;
+}
+
+nav ul.li-wrap li.a-wrap a.a-link {
+  text-decoration: none;
+  color: #343d46;
+  font-family: "Macondo", cursive;
+}
+/*# sourceMappingURL=style.css.map */

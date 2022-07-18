@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+div.inner-div{
+height: 125px;
+width: 125px;
+margin: 5px;
+padding-top: 53px;
+}
+.wrap{
+background-color: gray;
+margin: auto;
+width: 18vw;
+}
+div.wrap div.even{
+    background-color: aquamarine;
+}
+
+div.inner-div:nth-child(1):hover{
+    background-color: red;
+    border-radius: 50%;
+}
+div.inner-div:nth-child(2):hover{
+    background-color: yellow;
+    border-radius: 50%;
+}
+div.inner-div:nth-child(3):hover{
+    background-color: green;
+    border-radius: 50%;
+}

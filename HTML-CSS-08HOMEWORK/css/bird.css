@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-image: url(./img/nest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+div.bird{
+    background-image: url(./img/PEIGON.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 235px;
+    background-size: cover;
+    margin: 25% auto;
+    display: inline-block;
+    position: absolute;
+    animation: movebird 5s ease-in;
+}
+@keyframes movebird{
+    0%{
+       right: 70%; 
+    }
+   10%{
+        right: 60%;
+    }
+    20%{
+        right: 50%;
+    }
+    30%{
+        right: 40%;
+    }
+    40%{
+        right: 30%;
+    }
+    50%{
+        right: 20%;
+    }
+    60%{
+        bottom:0%;
+    }
+    70%{
+        bottom: 0%;
+    }
+    80%{
+        right: 40%;
+    }
+    90%{
+        right: 50%;
+    }
+    100%{
+        right: 55%;
+    }
+}

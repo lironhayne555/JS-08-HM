@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrap{
+    width: 80vw;
+    height: 80vh;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+
+}
+div.item{
+    width: 30vh;
+    height: 30vh;
+    border: 1px solid black;
+    margin: 10px;
+}
+div.cat{
+    background-image: url(./img/cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    animation-name: slideinCAT;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    
+}
+div.dog{
+    background-image: url(./img/dog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    animation-name: slideinDOG;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+
+}
+div.wrap:hover{
+animation:  topbottom 4s ;
+animation-fill-mode: forwards;
+position: absolute;
+
+}
+@keyframes slideinDOG
+{
+    0%{
+        right: -50%;
+    }
+    25%{
+        right: -20%;
+    }
+    50%{
+        right: -10%;
+    }
+    75%{
+        right: -5%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+@keyframes slideinCAT
+{
+    0%{
+        left: -50%;
+    }
+    25%{
+        left: -20%;
+    }
+    50%{
+        left: -10%;
+    }
+    75%{
+        left: -5%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+ @keyframes topbottom
+{
+    0%
+    { 
+     transform: translateY(50%);
+     filter: opacity(100%);
+    }
+    25%{
+        transform: translateY(-50%); 
+        filter: opacity(70%);
+    }
+    50%{
+        transform: translateY(50%);
+        filter: opacity(50%);
+    }
+    75%{
+        transform: translateY(-50%);
+       filter: opacity(25%);
+}
+100%{
+    transform: translateY(50%);
+    filter: opacity(0%);
+}
+}

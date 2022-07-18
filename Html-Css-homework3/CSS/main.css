@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-div{
+    position: absolute;
+    top: 33%;
+    left: 0px;
+    right: 0px;
+    width: 52%;
+    margin: auto;
+    height: 43%;
+    border-radius: 50%;
+    background-color: #16751a;
+    justify-content: center;
+    display: flex;
+}
+.card-div{
+
+top: 35%;
+    position: absolute;
+
+}
+.card{
+
+    width: 70px;;
+    height: 75px;
+}
+#logo{
+    width: 30%;
+    height: 38%;
+    top: -40%;
+    position: relative;
+
+}
+.jotonim-div{
+    position: absolute;
+    display: flex;
+    top: 13%;
+    margin: auto;
+
+}
+.onehundred{
+  border-radius: 25px;
+  width: 23px;
+  height: 19px;
+  background-color: black;
+  margin: 2%;
+  border: 3px dotted white;
+}
+.twentyfive{
+  border-radius: 24px;
+  width: 23px;
+  height: 19px;
+  background-color: red;
+  margin: 2%;
+  border: 3px dotted white;
+}
+.fifty{
+    border-radius: 24px;
+    width: 23px;
+    height: 19px;
+    background-color: blue;
+    margin: 2%;
+    border: 3px dotted white; 
+}
+.five{
+    border-radius: 24px;
+    width: 23px;
+    height: 19px;
+    background-color: #2fb42fee;
+    margin: 2%;
+    border: 3px dotted white;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrap{
+    width: 700px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+margin:5% auto
+}
+div.item{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    div.wrapr>div.item{
+        background-color: greenyellow;
+    }
+
+  }
+
+
+/* @media only screen and (max-width: 1250px){
+div.wrap{
+background-color: blueviolet;
+}
+
+} */

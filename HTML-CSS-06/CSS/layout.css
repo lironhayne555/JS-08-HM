@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+width: 100vw;
+height: 5vh;
+background-color: aquamarine;
+color: black;
+margin-top: 10%;
+}
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: hotpink;
+    color: black;
+}
+div.wrap{
+display: flex;
+flex-direction: row;
+width: 100vw;
+height: 50vh;
+}
+section{
+    background-color: peru;
+    color: black;
+    width: 60vw;
+    height: 30vh;
+}
+aside{
+    background-color: blue;
+    color: black;
+    width: 40vw;
+}
+article{
+    background-color: grey;
+    color: black;
+    height: 20vh;
+}
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: greenyellow;
+    color: black; 
+}

@@ -1,0 +1,35 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+
+    background-color: black;
+    position: fixed;
+    list-style-type: none;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+}
+li{
+   
+    display: inline;
+    margin: 15px;
+
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+    font-weight: 2px;
+
+}
+#logo{
+width: 20px;
+height: 30px;
+
+}

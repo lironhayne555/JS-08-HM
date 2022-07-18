@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrap{
+width: 70vw;
+margin:  5px auto;
+display: grid;
+grid-template-areas: 
+
+}
+h1{
+    grid-area: h1;
+}
+div.nav-div{
+    grid-area: nav-div;
+}
+div.logo-div{
+    grid-area: logo-div;
+}
+section{
+    grid-area: section;
+}
+aside{
+grid-area: aside;
+}
+div.box-1
+{
+    grid-area: box1;
+}
+div.box-2
+{
+    grid-area: box2;
+}
+div.box-3
+{
+    grid-area: box3;
+}
+footer
+{
+    grid-area: footer;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.calc-wrap{
+width: 27vw;
+    height: 65vh;
+    margin: 5% auto;
+    background-color: #ffe715d1;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+}
+div.empty{
+    width: 7vw;
+    height: 5vh;
+    background-color: #605a5a;
+    margin-right: 17%;
+    border-radius: 5px;
+    border: 3px solid #e6d754;
+    margin-top: -10%;
+    margin-left: 58%;
+}
+div.wraper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 24vw;
+    margin: auto;
+    height: 35vh;
+    text-align: center;
+    margin-bottom: 24%;
+    font-weight: 900;
+}
+div #plusminus{
+    line-height: 17px;
+}
+input
+{
+    margin: 10% auto;
+    padding: 5px;
+    width: 68%;
+    height: 46%;
+    border-radius: 11px;
+    border: 3px solid #e6d754;
+    background-color: #c0bebe;
+    direction: rtl;
+    font-weight: 200;
+    font-size: 32px;
+    font-family: monospace;
+}
+div.gray.plus{
+    height: 12vh;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 70px;
+    border-radius: 25px;
+
+}
+div.gray{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: #8d8787;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    margin: 3px;
+    border-radius: 25px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 32px;
+}
+div.black{
+    width: 4vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: #3c3a3a;
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin: 3px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 25px;
+}
+div.orag{
+ width: 4vw;
+height: 6vh;
+border-radius: 5px;
+background-color: #fb8c00;
+color:gray ;
+text-align: center;
+font-size: large;
+margin: 3px;
+border-radius: 25px;
+vertical-align: middle;
+align-items: center;
+line-height: 32px;
+}
+div #button{
+    width: 11vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    color: #3d3737;
+    line-height: -2.91px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 32px;
+    margin-top: -24%;
+    height: 6vh;
+}

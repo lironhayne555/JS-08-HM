@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inner-div{
+height: 75px;
+width: 75px;
+background-color: red;
+margin: 10px;
+padding: 5px;
+color: blueviolet;
+}
+div#my-div{
+    background-color: blue;
+    color: white;
+    box-sizing: border-box;
+    position: static;
+}
+div#third-div{
+
+    position: relative;
+   
+}
+div.wrap{
+position: absolute;
+}
+.navbar{
+
+    background-color: grey;
+    position: fixed;
+    list-style-type: none;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+}
+li{
+    color: black;
+    display: inline;
+    margin: 15px;
+
+}
+li a{
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration: none;
+}

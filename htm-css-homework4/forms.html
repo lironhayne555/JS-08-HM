@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/formStyle.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form id="my-form">
+      <div class="div-wrap">
+        <label for="user_name">user</label>
+        <input
+          type="text"
+          placeholder="please enter youre user"
+          id="user_name"
+        />
+      </div>
+      <div class="div-wrap">
+        <label for="email">email</label>
+        <input type="ema'" id="email" placeholder="your email" />
+      </div>
+      <div class="div-wrap">
+        <label for="password">email</label>
+        <input type="password" id="password" placeholder="your password" />
+      </div>
+      <div class="div-wrap">
+        <label for="age">age</label>
+        <input type="number" />
+      </div>
+      <div class="div-wrap">
+        <label for="color">favorite color</label>
+        <input type="text" placeholder="please enter youre favorit color" />
+      </div>
+      <div class="div-wrap">
+        <label for="">how much you love the kurs between 1-10</label>
+        <input type="range" min="1" max="100" value="1" step="1" />
+      </div>
+      <div class="div-wrap">
+        <label for="">what youre favorite part of the day?</label>
+        <select name="favoritPartofDay" id="partOfDay">
+          <option value="" selected></option>
+          <option value="morning">Morning</option>
+          <option value="evening">evening</option>
+        </select>
+      </div>
+      <div class="div-wrap">
+        <label for="">what day you study?</label>
+        <label class="option" for="">Sunday</label>
+        <input type="checkbox" value="1" name="learning-days" id="" />
+        <label class="option" for="">Monday</label>
+        <input type="checkbox" value="2" name="learning-days" id="" />
+        <label class="option" for="">Tusday</label>
+        <input type="checkbox" value="3" name="learning-days" id="" />
+        <label class="option" for="">Wednsday</label>
+        <input type="checkbox" value="4" name="learning-days" id="" />
+        <label class="option" for="">Thursday</label>
+        <input type="checkbox" value="5" name="learning-days" id="" />
+        <label class="option" for="">Friday</label>
+        <input type="checkbox" value="6" name="learning-days" id="" />
+      </div>
+      <div class="div-wrap">
+        <label for="">Do you come to the exercises?</label>
+        <select name="exercises" id="exercisesYN">
+          <option value="" selected></option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class="div-wrap">
+        <label for="">What topic you need to practice?</label>
+        <select name="practice" id="topicPractice">
+          <option value="" selected></option>
+          <option value="html">Html</option>
+          <option value="css">CSS</option>
+          <option value="java script">Java Script</option>
+          <option value="react">React</option>
+          <input type="button" id="button" value="Send" />
+        </select>
+      </div>
+    </form>
+  </body>
+</html>

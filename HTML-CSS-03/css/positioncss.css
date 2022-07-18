@@ -1,0 +1,14 @@
+div.div-wraper{
+width: 75%;
+height: 10000px;;
+background-color: antiquewhite;
+
+}
+div#div-2{
+float: left;
+width: 65%;
+}
+div#div-3{
+    float: right;
+    width: 30%;
+}

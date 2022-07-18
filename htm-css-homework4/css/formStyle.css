@@ -1,0 +1,39 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+}
+#my-form{
+
+    width: 60%;
+    height: 50%;
+margin:0 auto;
+}
+label{
+    margin-bottom: 6px;
+    width: 30px;
+
+}
+.div-wrap{
+display: inline-block;
+    width: 80%;
+margin: 0 auto;
+}
+input ,select
+{
+width:56% ;
+    height: 27px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    margin-bottom: 3%;
+
+}
+.option{
+    display: inline;
+}

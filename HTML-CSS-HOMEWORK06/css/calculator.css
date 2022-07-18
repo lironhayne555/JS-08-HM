@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.calc-div
+{
+    width: 27vw;
+    height: 60vh;
+    margin: 5% auto;
+    background-color: #ffe715d1;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+input
+{
+    margin: 10% auto;
+    padding: 5px;
+    width: 68%;
+    height: 12%;
+    border-radius: 11px;
+    border: 3px solid #e6d754;
+    background-color: #c0bebe;
+    direction: rtl;
+    font-weight: 200;
+    font-size: 32px;
+    font-family: monospace;
+}
+div.empty{
+    align-self: end;
+    width: 7vw;
+    height: 5vh;
+    background-color: #605a5a;
+    margin-right: 17%;
+    border-radius: 5px;
+    border: 3px solid #e6d754;
+    margin-top: -5%;
+}
+div.num-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 24vw;
+    margin:7px auto;
+}
+div.gray.plus{
+    height: 12vh;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 70px;
+    border-radius: 25px;
+
+}
+div.gray{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: #8d8787;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    margin: 3px;
+    border-radius: 25px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 32px;
+}
+div.black{
+    width: 4vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: #3c3a3a;
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin: 3px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 25px;
+}
+div.orang{
+ width: 4vw;
+height: 6vh;
+border-radius: 5px;
+background-color: #fb8c00;
+color:gray ;
+text-align: center;
+font-size: large;
+margin: 3px;
+border-radius: 25px;
+vertical-align: middle;
+align-items: center;
+line-height: 32px;
+}
+div #button{
+    width: 11vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    color: #3d3737;
+    line-height: -2.91px;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 32px;
+    margin-top: -11%;
+}
+/*div #ON{
+text-decoration: underline;}
+div #ON::after{
+    content: "CE";
+    position: absolute;
+    
+*/
+

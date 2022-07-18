@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div-wrap{
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    right: 0px;
+    width: 60%;
+    margin: auto;
+    height: 65%;
+    border-radius: 50%;
+    background-color: #16751a;
+    justify-content: center;
+    display: flex;
+}
+.card-div{
+    position: absolute;
+
+}
+.card{
+
+    width: 50px;;
+    height: 60px;
+}
+.player1{
+top:8%
+}
+.player2{
+    bottom: 10%;
+}
+.name{
+text-align: left;
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+}
+#name1{
+margin-top: 25%;
+
+}
+#name2{
+    margin-bottom: 27%;
+    bottom: 1%;
+}
+.jotonim-div{
+
+      position: absolute;
+      display: flex;
+      top: 45%;
+      margin: auto;
+
+}
+.onehundred{
+    border-radius: 25px;
+    width: 24px;
+    height: 20px;
+    background-color: black;
+    margin: 2%;
+    padding: 2px;
+    border: 2px dotted white;
+}
+.twentyfive{
+    border-radius: 24px;
+    width: 23px;
+    height: 19px;
+    background-color: red;
+    margin: 2%;
+    padding: 2px;
+    border: 2px dotted white;
+
+}
+
+.dolar{
+    color: white;
+    text-align: center;
+}
+#WinMSG{
+    margin: auto;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: static;
+    MARGIN-BOTTOM: 30%;
+}
+
+
+    
+    
